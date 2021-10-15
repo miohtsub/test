@@ -1,0 +1,10 @@
+{
+	"name": "AzureBlobStorage1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/54b70dbd-f506-448d-b12e-7d05c9f1dda3/resourceGroups/Training202004/providers/Microsoft.Storage/storageAccounts/otbstorage",
+		"groupId": "blob",
+		"fqdns": [
+			"otbstorage.blob.core.windows.net"
+		]
+	}
+}
