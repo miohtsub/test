@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tesr0914"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_privateLinkResourceId": {
+			"value": "/subscriptions/54b70dbd-f506-448d-b12e-7d05c9f1dda3/resourceGroups/Training202004/providers/Microsoft.Storage/storageAccounts/otbstorage"
+		},
+		"AzureBlobStorage1_properties_groupId": {
+			"value": "blob"
+		},
+		"AzureBlobStorage1_properties_fqdns": {
+			"value": [
+				"otbstorage.blob.core.windows.net"
+			]
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
